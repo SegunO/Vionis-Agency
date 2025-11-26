@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vionis Agency | How It Works</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        metallic: {
+                            silver: '#C0C0C0',
+                            blue: '#5D8AA8'
+                        },
+                        navy: '#02101F'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-black text-white font-sans antialiased">
+    <custom-header></custom-header>
+
+    <main class="max-w-3xl mx-auto py-32 px-4">
+        <h1 class="text-4xl md:text-5xl font-bold text-metallic-silver mb-16 text-center">HOW IT WORKS</h1>
+
+        <div class="space-y-20">
+            <!-- Step 1 -->
+            <div class="border-b-2 border-metallic-blue pb-8">
+                <h2 class="text-2xl font-bold text-metallic-blue mb-4">1. Intake Form</h2>
+                <p class="text-gray-300 leading-relaxed">
+                    Complete our simple questionnaire detailing your business information, services offered, and any existing content you'd like migrated. This typically takes under 10 minutes.
+                </p>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="border-b-2 border-metallic-blue pb-8">
+                <h2 class="text-2xl font-bold text-metallic-blue mb-4">2. Pay Setup Fee</h2>
+                <p class="text-gray-300 leading-relaxed">
+                    Submit the one-time $99 setup fee via our secure payment portal. This covers initial configuration and template customization.
+                </p>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="border-b-2 border-metallic-blue pb-8">
+                <h2 class="text-2xl font-bold text-metallic-blue mb-4">3. Template Site Built</h2>
+                <p class="text-gray-300 leading-relaxed">
+                    Within 5 business days, we'll deliver a fully functional website based on our professional templates optimized for trade businesses. You'll receive login credentials for content review.
+                </p>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="border-b-2 border-metallic-blue pb-8">
+                <h2 class="text-2xl font-bold text-metallic-blue mb-4">4. Subscription Bills on the 1st</h2>
+                <p class="text-gray-300 leading-relaxed">
+                    Your $49.99 monthly subscription begins immediately after setup and automatically renews on the 1st of each month. Payment receipts are emailed automatically.
+                </p>
+            </div>
+
+            <!-- Step 5 -->
+            <div class="border-b-2 border-metallic-blue pb-8">
+                <h2 class="text-2xl font-bold text-metallic-blue mb-4">5. Cancel Anytime</h2>
+                <p class="text-gray-300 leading-relaxed">
+                    No contracts. Cancel through your dashboard with 30 days notice. We'll assist with domain transfer at no additional cost upon cancellation.
+                </p>
+            </div>
+        </div>
+
+        <!-- Boundaries Section -->
+        <div class="mt-32 border-t-2 border-metallic-silver pt-12">
+            <h2 class="text-3xl font-bold text-metallic-silver mb-8">BOUNDARIES</h2>
+            <ul class="space-y-6">
+                <li class="flex items-start">
+                    <i data-feather="x" class="text-metallic-blue mr-4 mt-1"></i>
+                    <p class="text-gray-300">No custom design services - template modifications only</p>
+                </li>
+                <li class="flex items-start">
+                    <i data-feather="x" class="text-metallic-blue mr-4 mt-1"></i>
+                    <p class="text-gray-300">No marketing services - SEO optimization only</p>
+                </li>
+                <li class="flex items-start">
+                    <i data-feather="x" class="text-metallic-blue mr-4 mt-1"></i>
+                    <p class="text-gray-300">No blog functionality unless purchased as add-on</p>
+                </li>
+                <li class="flex items-start">
+                    <i data-feather="x" class="text-metallic-blue mr-4 mt-1"></i>
+                    <p class="text-gray-300">Information-only updates (text/content changes, no redesigns)</p>
+                </li>
+                <li class="flex items-start">
+                    <i data-feather="x" class="text-metallic-blue mr-4 mt-1"></i>
+                    <p class="text-gray-300">Domain held by Vionis until cancellation processed</p>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/header.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>feather.replace();</script>
+</body>
+</html>
