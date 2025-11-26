@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vionis Agency | FAQ</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        metallic: {
+                            silver: '#C0C0C0',
+                            blue: '#5D8AA8'
+                        },
+                        navy: '#02101F'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-navy text-white font-sans antialiased">
+    <custom-header></custom-header>
+
+    <main class="max-w-3xl mx-auto py-32 px-4">
+        <h1 class="text-4xl md:text-5xl font-bold text-metallic-silver mb-16 text-center">FREQUENTLY ASKED QUESTIONS</h1>
+
+        <div class="space-y-6">
+            <!-- FAQ Item 1 -->
+            <div class="border-b border-metallic-blue pb-6">
+                <button class="faq-toggle w-full flex justify-between items-start text-left">
+                    <h2 class="text-xl font-bold text-metallic-silver">Do I own the site?</h2>
+                    <i data-feather="chevron-down" class="text-metallic-blue ml-4 transition-transform duration-300"></i>
+                </button>
+                <div class="faq-content hidden mt-4">
+                    <p class="text-gray-300">
+                        You own all content you provide. The website infrastructure and template design remain Vionis property during active subscription. Upon cancellation, we provide all your content in standard formats and assist with domain transfer.
+                    </p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 2 -->
+            <div class="border-b border-metallic-blue pb-6">
+                <button class="faq-toggle w-full flex justify-between items-start text-left">
+                    <h2 class="text-xl font-bold text-metallic-silver">What if I cancel?</h2>
+                    <i data-feather="chevron-down" class="text-metallic-blue ml-4 transition-transform duration-300"></i>
+                </button>
+                <div class="faq-content hidden mt-4">
+                    <p class="text-gray-300">
+                        We provide 30-day notice period for cancellation. After final payment, we'll deliver your content package and assist with domain transfer. Websites are taken offline 45 days after cancellation.
+                    </p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 3 -->
+            <div class="border-b border-metallic-blue pb-6">
+                <button class="faq-toggle w-full flex justify-between items-start text-left">
+                    <h2 class="text-xl font-bold text-metallic-silver">Do you run ads?</h2>
+                    <i data-feather="chevron-down" class="text-metallic-blue ml-4 transition-transform duration-300"></i>
+                </button>
+                <div class="faq-content hidden mt-4">
+                    <p class="text-gray-300">
+                        Never. We prohibit any third-party advertising, analytics, or tracking scripts unless explicitly requested by you in writing.
+                    </p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 4 -->
+            <div class="border-b border-metallic-blue pb-6">
+                <button class="faq-toggle w-full flex justify-between items-start text-left">
+                    <h2 class="text-xl font-bold text-metallic-silver">Can I request design changes?</h2>
+                    <i data-feather="chevron-down" class="text-metallic-blue ml-4 transition-transform duration-300"></i>
+                </button>
+                <div class="faq-content hidden mt-4">
+                    <p class="text-gray-300">
+                        Our service includes template selection and basic color scheme adjustments during setup. Major design changes require our premium design package (starting at $299).
+                    </p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 5 -->
+            <div class="border-b border-metallic-blue pb-6">
+                <button class="faq-toggle w-full flex justify-between items-start text-left">
+                    <h2 class="text-xl font-bold text-metallic-silver">What happens if my payment fails?</h2>
+                    <i data-feather="chevron-down" class="text-metallic-blue ml-4 transition-transform duration-300"></i>
+                </button>
+                <div class="faq-content hidden mt-4">
+                    <p class="text-gray-300">
+                        We attempt payment 3 times over 15 days. After final attempt, service is suspended. Reactivation requires payment of outstanding balance plus $25 reinstatement fee.
+                    </p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 6 -->
+            <div class="border-b border-metallic-blue pb-6">
+                <button class="faq-toggle w-full flex justify-between items-start text-left">
+                    <h2 class="text-xl font-bold text-metallic-silver">How do updates work?</h2>
+                    <i data-feather="chevron-down" class="text-metallic-blue ml-4 transition-transform duration-300"></i>
+                </button>
+                <div class="faq-content hidden mt-4">
+                    <p class="text-gray-300">
+                        Submit update requests via your dashboard. Two information-only updates (text changes, image swaps) are included monthly. Additional updates are $25 each. Typical turnaround is 3 business days.
+                    </p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 7 -->
+            <div class="border-b border-metallic-blue pb-6">
+                <button class="faq-toggle w-full flex justify-between items-start text-left">
+                    <h2 class="text-xl font-bold text-metallic-silver">How long until my site goes live?</h2>
+                    <i data-feather="chevron-down" class="text-metallic-blue ml-4 transition-transform duration-300"></i>
+                </button>
+                <div class="faq-content hidden mt-4">
+                    <p class="text-gray-300">
+                        Initial setup completes in 5 business days after intake form submission and payment. Domain propagation may take additional 24-48 hours.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/header.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>feather.replace();</script>
+</body>
+</html>
