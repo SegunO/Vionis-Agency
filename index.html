@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vionis Agency | High-Reliability Hosting</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        metallic: {
+                            silver: '#C0C0C0',
+                            blue: '#5D8AA8'
+                        },
+                        navy: '#02101F'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-navy text-white font-sans antialiased">
+    <custom-header></custom-header>
+
+    <main class="max-w-7xl mx-auto">
+        <!-- Hero Section -->
+        <section class="relative min-h-screen flex flex-col justify-center items-center text-center px-4 overflow-hidden">
+            <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover z-0 opacity-20">
+                <source src="https://huggingface.co/spaces/segunoluwadele/vionis-metallic-horizon/resolve/main/videos/3121459-uhd_3840_2160_24fps.mp4" type="video/mp4">
+            </video>
+            <div class="relative z-10">
+                <h1 class="text-5xl md:text-7xl font-bold mb-6 metallic-text-silver">High-Reliability Website Hosting & Management</h1>
+                <p class="text-xl md:text-2xl text-metallic-blue mb-12">$49.99/month. $99 setup fee.</p>
+                <a href="how-it-works.html" class="px-8 py-4 bg-metallic-blue text-navy font-bold hover:bg-white transition-colors duration-300">GET STARTED</a>
+            </div>
+        </section>
+<!-- Divider -->
+        <div class="h-px w-full bg-gradient-to-r from-transparent via-metallic-blue to-transparent my-20"></div>
+
+        <!-- Offer Summary -->
+        <section class="px-4 mb-32">
+            <h2 class="text-3xl font-bold text-metallic-silver mb-12 text-center">WHAT WE PROVIDE</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
+                <div class="border-t-2 border-metallic-blue pt-6">
+                    <h3 class="text-xl font-bold text-metallic-silver mb-4">Hosting Infrastructure</h3>
+                    <p class="text-gray-300">Enterprise-grade servers with 99.9% uptime guarantee and automatic scaling.</p>
+                </div>
+                <div class="border-t-2 border-metallic-blue pt-6">
+                    <h3 class="text-xl font-bold text-metallic-silver mb-4">Security Management</h3>
+                    <p class="text-gray-300">SSL certificates, malware scanning, and daily backups included.</p>
+                </div>
+                <div class="border-t-2 border-metallic-blue pt-6">
+                    <h3 class="text-xl font-bold text-metallic-silver mb-4">Plugin Updates</h3>
+                    <p class="text-gray-300">Automatic updates for all WordPress plugins and core software.</p>
+                </div>
+                <div class="border-t-2 border-metallic-blue pt-6">
+                    <h3 class="text-xl font-bold text-metallic-silver mb-4">Domain Management</h3>
+                    <p class="text-gray-300">DNS configuration and domain renewal reminders handled for you.</p>
+                </div>
+                <div class="border-t-2 border-metallic-blue pt-6">
+                    <h3 class="text-xl font-bold text-metallic-silver mb-4">Basic SEO</h3>
+                    <p class="text-gray-300">On-page optimization for local search visibility.</p>
+                </div>
+                <div class="border-t-2 border-metallic-blue pt-6">
+                    <h3 class="text-xl font-bold text-metallic-silver mb-4">Content Updates</h3>
+                    <p class="text-gray-300">Two information-only updates per month included.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Divider -->
+        <div class="h-px w-full bg-gradient-to-r from-transparent via-metallic-blue to-transparent my-20"></div>
+
+        <!-- Industry Targets -->
+        <section class="px-4 mb-32">
+            <h2 class="text-3xl font-bold text-metallic-silver mb-12 text-center">PERFECT FOR</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="flex flex-col items-center">
+                    <i data-feather="tool" class="text-metallic-blue w-12 h-12 mb-4"></i>
+                    <p class="text-lg">Plumbers</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <i data-feather="zap" class="text-metallic-blue w-12 h-12 mb-4"></i>
+                    <p class="text-lg">Electricians</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <i data-feather="thermometer" class="text-metallic-blue w-12 h-12 mb-4"></i>
+                    <p class="text-lg">HVAC</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <i data-feather="home" class="text-metallic-blue w-12 h-12 mb-4"></i>
+                    <p class="text-lg">Local Trades</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Divider -->
+        <div class="h-px w-full bg-gradient-to-r from-transparent via-metallic-blue to-transparent my-20"></div>
+
+        <!-- Why Vionis -->
+        <section class="px-4 mb-32">
+            <h2 class="text-3xl font-bold text-metallic-silver mb-12 text-center">WHY VIONIS</h2>
+            <div class="max-w-3xl mx-auto">
+                <ul class="space-y-8">
+                    <li class="flex items-start">
+                        <i data-feather="check-circle" class="text-metallic-blue mr-4 mt-1"></i>
+                        <div>
+                            <h3 class="text-xl font-bold text-metallic-silver mb-2">Reliability First</h3>
+                            <p class="text-gray-300">We specialize in keeping sites running with military-grade infrastructure.</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <i data-feather="dollar-sign" class="text-metallic-blue mr-4 mt-1"></i>
+                        <div>
+                            <h3 class="text-xl font-bold text-metallic-silver mb-2">Fixed Cost</h3>
+                            <p class="text-gray-300">No surprises. One flat monthly rate covers all essentials.</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <i data-feather="cpu" class="text-metallic-blue mr-4 mt-1"></i>
+                        <div>
+                            <h3 class="text-xl font-bold text-metallic-silver mb-2">Tech Burden Removed</h3>
+                            <p class="text-gray-300">Focus on your trade while we handle the technical complexities.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/header.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>feather.replace();</script>
+<script src="https://huggingface.co/deepsite/deepsite-badge.js"></script>
+</body>
+</html>
