@@ -8,8 +8,10 @@ class CustomHeader extends HTMLElement {
                     background-color: #f8f9fa;
                     backdrop-filter: blur(10px);
                     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+                    position: sticky;
+                    top: 0;
                 }
-                .nav-container {
+.nav-container {
                     max-width: 1200px;
                     margin: 0 auto;
                     padding: 0.8rem 2rem;
